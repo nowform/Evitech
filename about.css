@@ -1,0 +1,65 @@
+.sponsor img{
+    height: 70px;
+    margin-top: 30px;
+}
+.sponsors-cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.sponsor{
+    text-align: center;
+}
+.cleaner-cont{
+    padding: 140px 85px;
+}
+.cleaner-cont p{
+    line-height: 24px;
+}
+.cleaner-cont .half25.half{
+width: 28%;
+margin-right: 10%;
+}
+.cleaner-cont .half .half-inner{
+width: 50%;
+}
+.process-cont{
+    background-color: #f0f0f0;
+        padding: 55px 120px 155px;
+}
+.process-inner-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.process .upper{
+    position: relative;
+    padding: 90px;
+    background-color: #fff;
+    border-radius: 50%;
+
+}
+.process .lower{
+    font-size: 24px;
+    max-width: 222px;
+}
+.process .upper::after {
+ content: url('img/twitter.svg');
+ position: absolute;
+ right: -29%;
+ top:50%
+}
+.process:last-child .upper::after{
+content: none;
+}
+.process img {
+    width: 45px;
+    height: 45px;
+}
+.join{
+    text-align: center;
+    margin-right: 60px;
+}
+.join:last-child{
+    margin-right: 0px;
+}

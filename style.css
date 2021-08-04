@@ -24,6 +24,12 @@ body {
 button,a{
     cursor: pointer;
 }
+.flex{
+    display: flex;
+}
+.paddingcontainer{
+    padding: 130px 85px;
+}
 header{
     padding: 28px 85px;
     display: flex;
@@ -73,7 +79,7 @@ img.fullwidth{
 }
 .textoverimg p{
     /* font-family: TTHoves; */
-    font-size: 60px;
+    /* font-size: 60px; */
     font-weight: 500;
 }
 .inputwithbutton input{
