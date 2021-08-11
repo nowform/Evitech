@@ -326,3 +326,196 @@ h3{
 .text-center{
     text-align: center;
 }
+.hamburger-icon{
+    display: none;
+}
+h1.normal{
+    font-weight: normal;
+}
+.mob-growth-img{
+    display: none;
+}
+.footer-mob{
+    display: none;
+}
+.footer-desk{
+    display: flex;
+}
+@media screen and (max-width: 768px){
+    nav.header{
+        display: none;
+    }
+    .text-left-mob{
+        text-align: left;
+    }
+    h1{
+        font-size: 38px;
+        font-weight: 600;
+        letter-spacing: -0.51px;
+    }
+    .video-mob{
+        padding: 20px;
+    }
+    header{
+        padding: 15px 20px;
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+    }
+    .blue-back{
+        background-color: #a9dff5;
+    }
+    header .logo{
+        width: 122px;
+    }
+    .hamburger-icon{
+        align-self: center;
+        display: block;
+    }
+    .textoverimg{
+        position: relative;
+        width: 100%;
+        left:auto;
+        padding: 105px 20px 50px;
+    }
+    .counter-cont{
+        display: block;
+    }
+    .section-two-half{
+        display: block;
+    }
+    .half{
+        width: 100%;
+    }
+    .half-green-section{
+        padding: 70px 20px;
+    }
+    .multicard{
+        padding: 70px 20px;
+    }
+    .count-caras-cont{
+        padding: 70px 20px 300px;
+    }
+    .card-cont{
+        /* width: 250%; */
+        overflow-x: scroll;
+        white-space: nowrap;
+        display: block;
+    }
+    .card{
+        width: 300px;
+        display: inline-block;
+    }
+    .card .lower{
+        white-space: initial;
+    }
+    .count-caras-cont h2{
+        width: 65%;
+    }
+    .counter-cont{
+        margin-top: 30px;
+    }
+    .carsousel-cont{
+        bottom: 0px;
+    }
+    .counter{
+        display: flex;
+        margin-bottom: 60px;
+    }
+    .counter img{
+       width: 48px;
+    }
+    .count{
+        text-align: left;
+    }
+    .counter span{
+        font-size: 24px;
+        font-weight: normal;
+        letter-spacing: -0.5px;
+    }
+    .counter-inner{
+        text-align: left;
+        margin-left: 17px;
+    }
+    .calculator{
+        flex-direction: column-reverse;
+    }
+    .calculator .half:first-child{
+        padding: 40px 20px 80px !important;
+    }
+    .calculator .half{
+        padding: 150px 20px 20px;
+    }
+    h2{
+        font-size: 38px;
+    }
+    .growth-cont{
+        padding: 70px 20px 30px;
+    }
+    .growth-cont-inner{
+        width: 100%;
+    }
+    .growth-cont {
+        background-color: #a9dff5;
+        background-image: none;
+    }
+    .mob-growth-img{
+        width: 100%;
+        background-color: #a9dff5;
+        display: block;
+    }
+    footer{
+        padding: 60px 20px
+    }
+    .footer-mob{
+        display: block;
+    }
+    .footer-desk{
+        display: none;
+    }
+    .accordion_container {
+        width: 100%;
+        margin-top: 30px;
+      }
+      
+      .accordion_head {
+        border-top: solid 1px #a6a6a6;
+        color: white;
+        cursor: pointer;
+        padding: 15px 0px;
+        font-size: 18px;
+        font-weight: 600;
+      }
+      .quick-links {
+          margin-top: 0;
+      }
+      .quick-links li{
+          margin-bottom: 10px;
+      }
+      .quick-links ul {
+          list-style: none;
+          width: 100%;
+      }
+      .accordion_body p {
+        padding: 18px 5px;
+        margin: 0px;
+      }
+      .social-links{
+          list-style: none;
+          display: inline-block;
+          float: right;
+      }
+      .footer-logo{
+          margin-bottom: 40px;
+      }
+      .social-links li {
+        display: inline;
+        margin-left: 10px;
+    }
+      .plusminus {
+        float: right;
+      }
+      
+}
