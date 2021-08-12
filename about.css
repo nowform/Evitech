@@ -63,3 +63,19 @@ content: none;
 .join:last-child{
     margin-right: 0px;
 }
+
+
+@media screen and (max-width: 768px){
+    .process-inner-cont{
+        flex-direction: column;
+    }
+    .cleaner-cont{
+        padding: 20px;
+    }
+    .sponsor p{
+        display: none;
+    }
+    .sponsor img{
+       width: 92px;
+    }
+}

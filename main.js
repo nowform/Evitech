@@ -25,10 +25,25 @@ $(this).children(".plusminus").find("img").attr("src", "img/minus.svg");
 }
 });
 });
+(function($) {
+    var $window = $(window),
+        $html = $('html');
 
+    function resize() {
+        if ($window.width() < 514) {
+            return $html.addClass('mobile');
+        }
+
+        $html.removeClass('mobile');
+    }
+
+    $window
+        .resize(resize)
+        .trigger('resize');
+})(jQuery);
 $(document).ready(function () {
     //rotation speed and timer
-    var speed = 4000;
+    var speed = 400000;
     
     var run = setInterval(rotate, speed);
     var slides = $('.slide');

@@ -476,9 +476,19 @@ h1.normal{
         width: 140px;
         margin-bottom: 30px;
     }
+    .mob-only{
+        display: none;
+    }
+    .desk-only{
+        display: block;
+    }
+   
 @media screen and (max-width: 768px){
     nav.header{
         display: none;
+    }
+    .flex-column-mob{
+        flex-direction: column;
     }
     .text-left-mob{
         text-align: left;
@@ -553,7 +563,15 @@ h1.normal{
         margin-top: 30px;
     }
     .carsousel-cont{
-        bottom: 0px;
+        bottom: -250px;
+        width: calc(100% - 40px);
+        left: 20px;
+    }
+    #slides ul{
+        width: 100%;
+    }
+    h3{
+        font-size: 24px;
     }
     .counter{
         display: flex;
@@ -652,5 +670,30 @@ h1.normal{
       .plusminus {
         float: right;
       }
-      
+      .mobile #slides {
+        width: 100% !important;
+        top:0px
+        }
+        .quote-phrase{
+            padding: 5px 40px;
+        }
+        .authorContainer{
+            margin-top:30px;
+        }
+        .calculator{
+            
+            margin-top: 150px;
+        }
+        .mob-only{
+            display: block;
+        }
+        .desk-only{
+            display: none;
+        }
+        #buttons a{
+            margin: 0 5px;
+        }
+        .inputwithbutton button{
+            padding: 14px 20px;
+        }
 }
