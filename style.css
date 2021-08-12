@@ -24,6 +24,10 @@ body {
 button,a{
     cursor: pointer;
 }
+nav.header ul li a {
+    text-decoration: none;
+    color: inherit;
+}
 .flex{
     display: flex;
 }
@@ -70,11 +74,13 @@ footer .half li{
 }
 img.fullwidth{
  width: 100%;
+ height: 100%;
 }
 .textoverimg{
     top:17.5%;
     width: 31%;
     left: 85px;
+    text-align: left;
     position: absolute;
 }
 .textoverimg p{
@@ -90,6 +96,7 @@ img.fullwidth{
     color: #a0a0a0;
     font-size: 14px;
   height: 51px;
+  width: 70%;
 }
 .inputwithbutton button{
     outline: none;
@@ -98,7 +105,7 @@ img.fullwidth{
     font-weight: bold;
     height: 51px;
     font-size: 14px;
-    padding: 14px 16px;
+    padding: 14px 60px;
   background-color: #ee7623;
 }
 .inputwithbutton input::placeholder{
@@ -174,7 +181,7 @@ nav.header ul li:last-child{
 }
 .count-caras-cont{
     background-color:#07553f;
-    padding:112px 86px 349px 85px;
+    padding:112px 86px 400px 85px;
 }
 .growth-cont{
     background-color: #a9dff5;
@@ -219,13 +226,13 @@ h3{
 }
 
 .carsousel-cont{
-    padding: 76.4px 32.8px 53px 35.2px;
+    /* padding: 76.4px 32.8px 53px 35.2px; */
   background-color: #bef0bf;
   position: absolute;
-  bottom: 0;
+  bottom: -240px;
   width:  calc(100% - 170px);
   left: 85px;
-  height: 300px;
+  height: 500px;
   z-index: 2;
 }
 .count
@@ -243,7 +250,7 @@ h3{
 }
 .calculator{
     display: flex;
-    /* margin-top: 200px; */
+    margin-top: 200px;
 }
 .calculator .half{
     padding:150px 85px;
@@ -340,7 +347,135 @@ h1.normal{
 }
 .footer-desk{
     display: flex;
+    width: 100%;
 }
+
+/*Carousel*/
+#carousel {
+    position: relative;
+    /* width:60%; */
+    margin:0 auto;
+    background-color: #bef0bf;
+    }
+    
+    #slides {
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 400px;
+    }
+    
+    #slides ul {
+    list-style: none;
+    width:100%;
+    height:250px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    }
+    
+     #slides li {
+    width:100%;
+    height:250px;
+    float:left;
+    text-align: center;
+    position: relative;
+    /* font-family:lato, sans-serif; */
+    }
+    /* Styling for prev and next buttons */
+    .btn-bar{
+        /* max-width: 346px; */
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        top: 230px;
+        width: 100%;
+        /* height: 100px; */
+        float: left;
+        z-index: 9;
+
+    }
+    
+     #buttons {
+    /* padding:0 0 5px 0; */
+    /* float:right; */
+    position: relative;
+    width: 100%;
+    float: left;
+    }
+    
+    #buttons a {
+    text-align:center;
+    display:block;
+    /* font-size:50px; */
+    /* float:left; */
+    outline:0;
+    margin:0 60px;
+    /* color:#b14943; */
+    text-decoration:none;
+    display:block;
+    padding:9px;
+    /* width:35px; */
+    }
+    #buttons a#prev{
+        float: left;
+    }
+    #buttons a#next{
+        float: right;
+    }
+    a#prev:hover, a#next:hover {
+    /* color:#FFF;
+    text-shadow:.5px 0px #b14943;   */
+    }
+    
+    .quote-phrase {
+    /* font-family:sans-serif;
+    font-weight:300; */
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px 100px;
+    /* font-family:'Lato', Calibri, Arial, sans-serif; */
+    }
+    
+    .quote-phrase {
+    height: 200px;
+    /* margin-bottom: 80px; */
+    }
+    
+    .quote-marks {
+    /* font-size:30px; */
+    padding:0 3px 3px;
+    position:inherit;
+    }
+    
+    .quote-author {
+    /* font-style:normal; */
+    /* font-size:20px;
+    color:#b14943; */
+    /* font-weight:400; */
+    height: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ee7623;
+    }
+    .authorContainer,.quote-author{
+        width: 100%;
+        text-align: center;
+        display: table;
+    }
+    .authorContainer{
+        margin-top: 80px;
+    }
+    .quoteContainer{
+    display: table;
+    width: 100%;
+    text-align: center;
+    }
+    .quote-phrase img{
+        width: 140px;
+        margin-bottom: 30px;
+    }
 @media screen and (max-width: 768px){
     nav.header{
         display: none;

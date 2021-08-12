@@ -8,25 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="about.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
 </head>
 <body>
     <header>
-        <span><img src="img/logo.svg" alt="" srcset=""></span>
+        <span><a href="index.html"><img class="logo" src="img/logo.svg" alt="" srcset=""></a></span>
+        <span class="hamburger-icon"><img src="img/hamburger-icon.svg" alt=""></span>
        <nav class="header">
            <ul>
-               <li>About us</li>
-               <li>About us</li>
-               <li>About us</li>
-               <li>About us</li>
-               <li>About us</li>
-               <li><img src="img/search-icon.svg" alt="" srcset=""></li>
-               <li><button class="btn secondary">Get a quote</button></li>
+               <li><a href="About.html">About us</a></li>
+               <li>Our Products</li>
+               <li>Our Services</li>
+               <li>VEU Program</li>
+               <!-- <li><img src="img/search-icon.svg" alt="" srcset=""></li> -->
+               <li><button class="btn secondary">Contant us</button></li>
            </ul>
        </nav>
     </header>
     <main class="">
-        <section class="relative">
-            <img src="img/homepage-img-1.png" class="fullwidth" alt="" srcset="">
+        <section class="relative" style="background-color: #a9dff5;line-height:0;text-align: right;">
+            <img src="img/about-us-illus.png" class="fullwidth" style="width: 70%; padding-top:70px;" alt="" srcset="">
             <div class="textoverimg">
                 <h1>About us</h1>
                 <p class="font18 mt20">Evitech, an ISO 9001 certified company aims to reduce carbon emissions across Australia by assisting residential and commercial customers through various methods such as upgrading inefficient lighting, installing solar PV and battery systems.</p>
@@ -40,11 +42,11 @@
             </div>
             <div class="sponsor">
                 <p>Clean Energy Council Approved</p>
-                <img src="img/sponsor.png"/>
+                <img src="img/energy.png"/>
             </div>
             <div class="sponsor">
                 <p>Clean Energy Council Approved</p>
-                <img src="img/sponsor.png"/>
+                <img src="img/approved.png"/>
             </div>
         </section>
         <section class="flex cleaner-cont">
@@ -83,7 +85,7 @@
             </div>
             <div class="process">
                 <div class="upper">
-                    <img src="img/process-serach.svg" class="fullwidth" alt="">
+                    <img src="img/schedule.svg" class="fullwidth" alt="">
                 </div>
                 <div class="lower">
                     <p class="mt30 text-center">Schedule an Appointment</p>
@@ -91,18 +93,18 @@
             </div>
             <div class="process">
                 <div class="upper">
-                    <img src="img/process-serach.svg" class="fullwidth" alt="">
+                    <img src="img/setting.svg" class="fullwidth" alt="">
                 </div>
                 <div class="lower">
-                    <p class="mt30 text-center">Get the Quote for Free</p>
+                    <p class="mt30 text-center">Installation by Expert Electricians</p>
                 </div>
             </div>
             <div class="process">
                 <div class="upper">
-                    <img src="img/process-serach.svg" class="fullwidth" alt="">
+                    <img src="img/bill.svg" class="fullwidth" alt="">
                 </div>
                 <div class="lower">
-                    <p class="mt30 text-center">Get the Quote for Free</p>
+                    <p class="mt30 text-center">Start Saving on electricity bills</p>
                 </div>
             </div>
          
@@ -113,12 +115,12 @@
             <div class="counter-cont">
                 <div class="counter">
                     <img src="img/globe-leave.svg" alt=""><br/>
-                    <span class="count">250</span><span>+</span>
+                    <span class="count">350</span><span>+</span>
                     <p class="font-white">Tonnes Carbon Reduced</p>
                 </div>
                 <div class="counter">
                     <img src="img/globe-leave.svg" alt=""><br/>
-                    <span class="count">250000</span><span>+</span>
+                    <span class="count">350000</span><span>+</span>
                     <p class="font-white">Globes Installed</p>
                 </div>
                 <div class="counter">
@@ -128,35 +130,172 @@
                 </div>
             </div>
             <div class="carsousel-cont">
-
+                <div id="carousel">
+                    <div class="btn-bar">
+                      <div id="buttons"><a id="prev" href="#"><img src="img/prev.svg"/></a><a id="next" href="#"><img src="img/next.svg"/></a> </div></div>
+                      <div id="slides">
+                          <ul>
+                              <li class="slide">
+                                  <div class="quoteContainer">
+                                      
+                                      <h3 class="quote-phrase"><img src="img/bp.png"><br/> “Powering our lives shouldn’t impoverish our planet. This is the singular, unwavering belief that drives all our efforts here at Evitech.
+                                      </h3>
+                                  </div>
+                                  <div class="authorContainer">
+                                      <p class="quote-author text-center">David Walker</p>
+                                      <p class="text-center">Business Development Manager</p>
+                                  </div>
+                              </li>
+                              <li class="slide">
+                                <div class="quoteContainer">
+                                    <h3 class="quote-phrase"><img src="img/bp.png"><br/><span class="quote-marks">"</span> “Powering our lives shouldn’t impoverish our planet. This is the singular, unwavering belief that drives all our efforts here at Evitech.
+                                    </h3>
+                                </div>
+                                <div class="authorContainer">
+                                    <p class="quote-author text-center">David Walker</p>
+                                    <p class="text-center">Business Development Manager</p>
+                                </div>
+                              </li>
+                              <li class="slide">
+                                <div class="quoteContainer">
+                                    <h3 class="quote-phrase"><img src="img/bp.png"><br/><span class="quote-marks">"</span> “Powering our lives shouldn’t impoverish our planet. This is the singular, unwavering belief that drives all our efforts here at Evitech.
+                                    </h3>
+                                </div>
+                                <div class="authorContainer">
+                                    <p class="quote-author text-center">David Walker</p>
+                                    <p class="text-center">Business Development Manager</p>
+                                </div>
+                              </li>
+                          </ul>
+                      </div>
+            </div>
             </div>
 
         </section>
 
-      <section class="flex paddingcontainer">
+      <section class="flex paddingcontainer" style="margin-top: 260px;">
           <div class="join">
             <h2>Contact us</h2>
             <p class="mt20"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             <button class="btn secondary mt30">Contact us</button>
           </div>
           <div class="join">
-            <h2>Contact us</h2>
-            <p class="mt20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            <button class="btn secondary mt30">Contact us</button>
+            <h2>Join our team</h2>
+            <p class="mt20">Join a team of dreamers and doers that are changing the world. </p>
+            <button class="btn secondary mt30">View job openings</button>
         </div>
         <div class="join">
-            <h2>Contact us</h2>
+            <h2>Become a partner</h2>
             <p class="mt20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
             <button class="btn secondary mt30">Contact us</button>
         </div>
       </section>
        </main>
        <footer>
+        <div class="footer-mob">
+            <img src="img/footer-logo.svg" class="footer-logo"/>
+            <ul class="social-links mt20">
+                <li>
+                    <img src="img/fb.svg" alt="">
+                                                 
+                </li>
+                <li>
+                    <img src="img/twitter.svg" alt="">
+                                                 
+                </li>
+                <li>
+                    <img src="img/linkedin.svg" alt="">
+                                                         
+                </li>
+                </ul>
+
+            </ul>
+            <p>Subscribe to our newsletter and never miss an update</p>
+            <div class="inputwithbutton mt30">
+                <input type="text" placeholder="Enter your email address"/><button class="">Subscribe</button>
+            </div>
+            <div class="accordion_container">
+                <div class="accordion_head">Quick links<span class="plusminus"><img src="img/plus.svg"/></span></div>
+                <div class="accordion_body" style="display: none;">
+                    <div class="quick-links">
+                        <ul>
+                        
+                            <li>
+                                Home
+                                          
+                            </li>
+                            <li>
+                                About Us
+                                               
+                            </li>
+                            <li>
+                                Our Products
+                                             
+                            </li>
+                            <li>
+                                Schemes & Programs
+                                                  
+                            </li>
+                            <li>
+                                Contact Us            
+                              </li>
+            
+                        </ul>
+                       
+                   
+                    </div>
+                </div>
+                <div class="accordion_head">Navigation<span class="plusminus"><img src="img/plus.svg"/></span></div>
+                <div class="accordion_body" style="display: none;">
+                 <p>
+                            Unit 11, 22-30 Wallace Ave, Point Cook,
+        VIC 3030
+        </p>
+                                      
+                      
+                </div>
+                <div class="accordion_head">Other<span class="plusminus"><img src="img/plus.svg"/></span></div>
+                <div class="accordion_body quick-links" style="display: none;">
+                    <ul >
+                      
+                        <li>
+                            Career
+        
+                                      
+                        </li>
+                        <li>
+                            Sitemap
+                                                         
+                        </li>
+                        <li>
+                            FAQ
+                                                         
+                        </li>
+                        <li>
+                            Copyright
+                                                                 
+                        </li>
+                        <li>
+                            Privacy Policy                   </li>
+        
+                    </ul>
+                </div>
+                <div class="accordion_head">Our Office<span class="plusminus"><img src="img/plus.svg"/></span></div>
+                <div class="accordion_body" style="display: none;">
+                    <p>
+                        Unit 11, 22-30 Wallace Ave, Point Cook,
+    VIC 3030
+    </p>
+                </div>
+              </div>
+              
+        </div>
+        <div class="footer-desk">
            <div class="half">
             <img src="img/footer-logo.svg" class="footer-logo"/>
-            <p class="mb20 font16">Quick Links</p>
-            <h3>Lighting Upgrade
-                Space Heating & Cooling
+            <p class="mb20 font16">Our services</p>
+            <h3>Lighting Upgrade<br/>
+                Space Heating & Cooling<br/>
                 Heat Pump</h3>
            </div>
            <div class="half">
@@ -166,9 +305,6 @@
             </div>
             <div class="quick-links">
                 <ul>
-                    <li>
-                        Our Office
-                    </li>
                     <li>
                         Home
                                   
@@ -245,7 +381,9 @@
            
           
            </div>
+           </div>
        </footer>
+
 
        <script>
             $('.count').each(function () {

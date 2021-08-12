@@ -44,7 +44,7 @@ width: 50%;
     max-width: 222px;
 }
 .process .upper::after {
- content: url('img/twitter.svg');
+ content: url('img/right-chevron.svg');
  position: absolute;
  right: -29%;
  top:50%
