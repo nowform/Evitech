@@ -33,6 +33,7 @@ nav.header ul li a {
 }
 .paddingcontainer{
     padding: 130px 85px;
+    justify-content: space-between;
 }
 header{
     padding: 28px 85px;
