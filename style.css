@@ -145,7 +145,7 @@ nav.header ul li:last-child{
 }
 .half-green-section{
     background-color: #bef0bf;
-    padding: 215px 85px;
+    padding: 85px;
 }
 .card .upper{
     padding:30px
@@ -195,6 +195,9 @@ nav.header ul li:last-child{
 }
 .growth-cont-inner{
    width: 35%;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
 }
 h1{
     /* font-family: TTHoves; */
@@ -325,6 +328,7 @@ h6{
     color:#383737;
 }
 /*buttons*/
+.is-button a,
 .btn{
     padding: 13px 26px 12.1px 25px;
     border-radius: 24.5px;
@@ -449,9 +453,7 @@ h1.normal{
     vertical-align: middle;
     padding: 5px 100px;
     /* font-family:'Lato', Calibri, Arial, sans-serif; */
-    }
-    
-    .quote-phrase {
+    line-height: 1.17;
     height: 200px;
     /* margin-bottom: 80px; */
     }

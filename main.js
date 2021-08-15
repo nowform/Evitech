@@ -11,19 +11,19 @@ $('.count').each(function () {
 });
 $(document).ready(function() {
 //toggle the component with class accordion_body
-$(".accordion_head").click(function() {
-if ($('.accordion_body').is(':visible')) {
-$(".accordion_body").slideUp(300);
-$(".plusminus").find("img").attr("src", "img/plus.svg");
-}
-if ($(this).next(".accordion_body").is(':visible')) {
-$(this).next(".accordion_body").slideUp(300);
-$(this).children(".plusminus").find("img").attr("src", "img/plus.svg");
-} else {
-$(this).next(".accordion_body").slideDown(300);
-$(this).children(".plusminus").find("img").attr("src", "img/minus.svg");
-}
-});
+    $(".accordion_head").click(function() {
+    if ($('.accordion_body').is(':visible')) {
+    $(".accordion_body").slideUp(300);
+    $(".plusminus").find("img").attr("src", "img/plus.svg");
+    }
+    if ($(this).next(".accordion_body").is(':visible')) {
+    $(this).next(".accordion_body").slideUp(300);
+    $(this).children(".plusminus").find("img").attr("src", "img/plus.svg");
+    } else {
+    $(this).next(".accordion_body").slideDown(300);
+    $(this).children(".plusminus").find("img").attr("src", "img/minus.svg");
+    }
+    });
 });
 (function($) {
     var $window = $(window),
@@ -41,6 +41,7 @@ $(this).children(".plusminus").find("img").attr("src", "img/minus.svg");
         .resize(resize)
         .trigger('resize');
 })(jQuery);
+
 $(document).ready(function () {
     //rotation speed and timer
     var speed = 400000;
