@@ -1,0 +1,86 @@
+img.fullwidth.service-us-illus{
+    width: 39%;
+    padding-right: 85px;
+    padding-bottom: 40px;
+}
+.blue-back{
+    background-color: #a9dff5;
+}
+.green-back{
+    background-color: #08553f;
+    padding: 115px 85px;
+}
+.products-head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+.products-cont{
+    padding: 115px 85px;
+    background-color: #f4f4f4;
+}
+.product-card{
+    background-color: #fff;
+    padding: 20px;
+    width: 20%;
+}
+.product-card:hover{
+    box-shadow: 0 2px 21px 0 rgba(0, 0, 0, 0.09);
+    cursor: pointer;
+}
+.product-card:hover .product-info{
+    color:#ee7623;
+}
+.product-card .product-info img.black{
+    display: block;
+}
+.product-card .product-info img.orange{
+    display: none;
+}
+.product-card:hover .product-info img.orange{
+    display: block;
+}
+.product-card:hover .product-info img.black{
+    display: none;
+}
+.product-info{
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    color: #202020;
+    display: flex;
+}
+.product-card img{
+    width: 100%;
+}
+.product-info img{
+    width: 25px;
+}
+.products-cards-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.white-caras-cont #carousel{
+    background-color: #fff;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+.green-back .half.first{
+ width: 40%;
+}
+.green-back .half{
+    width: 60%;
+    color: #fff;
+}
+.green-back .half .accordion_head{
+color: #ee7623;
+border-top: 1px solid #979797;
+padding: 30px 0 30px;
+display: flex;
+justify-content: space-between;
+}
+.green-back .half .accordion_body{
+    padding-bottom: 30px;
+}
+.green-back .half .accordion_body ol{
+    padding-left: 20px;
+}

@@ -155,6 +155,7 @@ nav.header ul li:last-child{
 }
 .card .upper.blue{
     background-color: #a9dff5;
+    padding-top: 0;
 }
 .card .upper.green{
     background-color: #cff3d1;
@@ -215,6 +216,13 @@ h3{
     font-weight: 500;
     letter-spacing: -0.51px;
 }
+h6{
+    /* font-family: TTHoves; */
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.33;
+    color: #383737;
+}
 .counter-cont{
     display: flex;
     justify-content: space-between;
@@ -225,7 +233,11 @@ h3{
     flex:1 1 auto;
     text-align: center;
 }
-
+.btn.secondary.white{
+    border: solid 1px #fff;
+    color: #fff;
+    background-color: transparent;
+}
 .carsousel-cont{
     /* padding: 76.4px 32.8px 53px 35.2px; */
   background-color: #bef0bf;
