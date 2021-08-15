@@ -90,3 +90,34 @@ justify-content: space-between;
 .green-back .half .accordion_body ol{
     padding-left: 20px;
 }
+@media screen and (max-width: 768px){
+    img.fullwidth.service-us-illus{
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .products-cont,.green-back{
+        padding: 115px 20px;
+    }
+    .products-head{
+        flex-direction: column;
+    }
+    .products-head button{
+       margin-top: 20px;
+    }
+    .product-card{
+        width: 48%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    }
+    .product-card:nth-child(2n){
+        margin-right: 0;
+    }
+    .green-back{
+        flex-direction: column;
+    }
+    .green-back .half.first,.green-back .half{
+        width: 100%;
+    }
+    
+}
