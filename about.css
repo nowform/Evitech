@@ -66,7 +66,31 @@ content: none;
 .fullwidth.about-us-illus{
     width: 70%;
 }
-
+.half40.half{
+    width: 40%;
+    margin-right: 10%;
+}
+.cleaner-cont .mr50{
+    margin-right: 50px
+}
+ol{
+    padding-left: 20px;
+}
+.greyback{
+    background-color: #f4f4f4;
+}
+.green-back{
+    background-color: #08553f;
+    color: #fff;
+}
+.veu-benefits-cont{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.benefits img{
+    width: 40px;
+}
 @media screen and (max-width: 768px){
     .process-inner-cont{
         flex-direction: column;

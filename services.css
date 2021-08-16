@@ -90,6 +90,53 @@ justify-content: space-between;
 .green-back .half .accordion_body ol{
     padding-left: 20px;
 }
+img.fullwidth.heat-us-illus{
+    padding-right: 85px;
+    padding-bottom: 40px;
+    width: 50%;
+    padding-top: 70px;
+}
+.heat-pumps{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+   
+}
+.heat-pumps .benefits{
+    width: 33%;
+    margin-bottom: 60px;
+}
+.heat-pumps .benefits img{
+margin-bottom: 25px;
+}
+.heat-pumps .benefits h5{
+margin-bottom: 20px;
+font-size: 24px;
+font-weight: 500;
+line-height: 1.25;
+}
+.features-cont{
+    padding: 500px 120px 155px;
+    background-color: #f4f4f4;
+}
+.features-cont-img{
+    position: absolute;
+    top:-350px
+}
+.cleaner-cont-heat{
+    padding: 140px 85px 500px;
+}
+.cleaner-cont-heat p{
+    line-height: 24px;
+}
+.cleaner-cont-heat .half25.half{
+width: 28%;
+margin-right: 10%;
+}
+.cleaner-cont-heat .half .half-inner{
+width: 50%;
+}
 @media screen and (max-width: 768px){
     img.fullwidth.service-us-illus{
         width: 100%;
