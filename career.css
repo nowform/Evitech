@@ -1,0 +1,32 @@
+.opening-table-cont h3{
+    margin-bottom: 30px;
+}
+.opening-table-cont{
+    margin-top: 155px;
+}
+.table-row.table-heading,.table-row.table-body{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.table-row.table-heading{
+    color:#8e8e8e;
+    font-size: 18px;
+  font-weight: 500;
+  padding: 13px 0;
+  border-bottom: solid 1px #979797;
+  line-height: 1.33;
+}
+.table-row.table-body{
+   color: #383737;
+   padding: 26px 0;
+   border-bottom: solid 1px #979797;
+   background-image: url(/img/arrow-career.svg);
+   background-position: center right;
+   background-repeat: no-repeat;
+   cursor: pointer;
+}
+.table-row.table-body:hover{
+    color: #ee7623;
+    background-image: url(/img/arrow-career-orange.svg);
+ }

@@ -497,7 +497,19 @@ h1.normal{
     .desk-only{
         display: block;
     }
-   
+      
+.evitech-wrapper{
+    width: 100%;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.padded{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+   .width50{
+       width: 50.6%;
+   }
 @media screen and (max-width: 768px){
     nav.header{
         display: none;
@@ -518,7 +530,7 @@ h1.normal{
     }
     header{
         padding: 15px 20px;
-        background-color: transparent;
+        background-color: #fff;
         position: fixed;
         top: 0;
         width: 100%;

@@ -31,7 +31,7 @@
   .navigation {
     position: sticky;
     width: 20%;
-    margin-left: 2%;
+    /* margin-left: 2%; */
     top:10%;
     float: left;
     /* background-color: #999; */
@@ -41,7 +41,7 @@
     display: block;
     color: #393939;
     text-decoration: none;
-    padding: 10px;
+    padding: 10px 0;
     font-size: 18px;
     line-height: 1.33;
   }
