@@ -69,6 +69,77 @@ margin-top: 50px;
     vertical-align: middle;
     margin-right: 10px;
 }
-.career-internal-cont .form-cont.half h3{
+.career-internal-cont .form-cont h3{
 margin-top: 0;
+}
+ div.checkbox input[type=checkbox] {
+    display: none;
+}
+ div.checkbox input[type=checkbox] + label {
+    border: 2px solid #000;
+    background: transparent;
+    margin: 0px;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-right: 5px;
+    padding: 0px;
+}
+ div.checkbox input[type=checkbox] + label img {
+    height: 10px;
+    width: 10px;
+    display: block;
+    visibility: hidden;
+}
+div.checkbox input[type=checkbox]:checked + label img {
+    visibility: visible;
+}
+ div.checkbox input[type=checkbox]:checked + label {
+    background: #ee7623;
+    border: 2px solid #ee7623;
+}
+.evitech-checkbox{
+margin-top: 15px;
+font-size: 18px;
+color: #383737;
+font-weight: normal;
+margin-bottom: 25px;
+}
+.evitech-checkbox h5{
+ margin-bottom: 15px;
+}
+.checkbox{
+    margin-bottom: 8px;
+}
+.contact-internal-cont{
+    /* display: flex; */
+     margin-top: 80px;
+     /* justify-content: space-between; */
+     margin-bottom: 80px;
+}
+.contact-internal-cont .form-cont h3{
+margin-bottom: 30px;
+}
+.contact-internal-cont h5{
+    font-size: 18px;
+    font-weight: 600;
+  color: #393939;
+}
+.contact-internal-cont p{
+    font-size: 18px;
+    font-weight: normal;
+  color: #393939;
+}
+.contact-internal-cont a{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: normal;
+  color: #ee7623;
+}
+.checkbox{
+    font-size: 18px;
+    font-weight: normal;
+  color: #393939;
 }
