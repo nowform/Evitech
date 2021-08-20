@@ -30,3 +30,45 @@
     color: #ee7623;
     background-image: url(/img/arrow-career-orange.svg);
  }
+ .career-internal-cont{
+     display: flex;
+     margin-top: 80px;
+     justify-content: space-between;
+     margin-bottom: 150px;
+ }
+ .career-internal-cont h3{
+margin-bottom: 20px;
+margin-top: 50px;
+ }
+ .form-cont.half{
+    /* margin-left: 10%; */
+    width: 30%;
+}
+.evitech-link img{
+    vertical-align: bottom;
+    margin-right: 13px;
+}
+.back-link{
+    color: #393939;
+    font-size: 18px;
+    line-height: 1.33;
+    text-decoration: none;
+}
+.back-link img{
+    vertical-align: sub;
+    margin-right: 10px;
+}
+.pin-cont{
+    color: #8e8e8e;
+    margin-top: 20px;
+}
+.pin-cont span:first-child{
+    margin-right: 40px;
+}
+.pin-cont span img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.career-internal-cont .form-cont.half h3{
+margin-top: 0;
+}

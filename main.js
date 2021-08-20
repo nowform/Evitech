@@ -150,3 +150,8 @@ $(window).scroll(function() {
             }
     });
 }).scroll();
+
+function openFileOption()
+{
+  document.getElementById("file1").click();
+}
