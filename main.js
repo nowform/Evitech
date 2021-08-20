@@ -19,9 +19,12 @@ $(document).ready(function() {
     if ($(this).next(".accordion_body").is(':visible')) {
     $(this).next(".accordion_body").slideUp(300);
     $(this).children(".plusminus").find("img").attr("src", "img/plus.svg");
+    $(this).removeClass("orange-text");
     } else {
     $(this).next(".accordion_body").slideDown(300);
     $(this).children(".plusminus").find("img").attr("src", "img/minus.svg");
+    $(this).addClass("orange-text");
+    $(this).siblings().removeClass("orange-text");
     }
     });
 });
@@ -155,3 +158,16 @@ function openFileOption()
 {
   document.getElementById("file1").click();
 }
+
+function openAccordion(event) {
+    let clicked = $(event.target);
+    clicked.addClass("orange-text");
+    clicked.siblings().removeClass("orange-text");
+    if (clicked.hasClass('faq-sidenav-list')) {
+      let ID = clicked.data('page');
+      $('#' + ID).show();
+      $('#' + ID).siblings().hide();
+    }
+    return false;
+  }
+  

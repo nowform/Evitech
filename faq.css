@@ -1,0 +1,42 @@
+img.fullwidth.faq-us-illus{
+    width: 54%;
+    padding-right: 85px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.accordion_container:first-child{
+    display: block;
+}
+.accordion_container{
+    display: none;
+}
+.faq-sidenav{
+    padding-left: 0;
+}
+.faq-sidenav li{
+    list-style: none;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.25;
+    cursor: pointer;
+}
+.accordion_head{
+    border-top: 1px solid #979797;
+    padding: 30px 0 30px;
+    display: flex;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.17;
+    justify-content: space-between;
+}
+.accordion_body{
+    padding-bottom: 30px;
+}
+.faq-contact{
+border-top: 1px solid #979797;
+padding-top: 50px;
+}
+.faq-contact{
+    display: block !important;
+}
